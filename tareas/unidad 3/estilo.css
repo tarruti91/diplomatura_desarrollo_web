@@ -1,0 +1,31 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(243, 230, 230);
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+.destacados {
+    font-size: large;
+    color: rgba(160, 99, 9, 0.514);
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 230, 230);
+    padding: 5px;
+}
