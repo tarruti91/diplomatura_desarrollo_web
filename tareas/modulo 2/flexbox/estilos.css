@@ -1,7 +1,10 @@
 h1 {
     text-align: center;
 }
-
+.PADRE{
+    display: flex;
+    justify-content: center;
+}
 .CONTENEDOR1 {
     width: 600px;
     border: 2px black solid;
