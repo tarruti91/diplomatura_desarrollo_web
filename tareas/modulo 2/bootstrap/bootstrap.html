@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trabajo practico bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Nombre de la pagina</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Home</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Usuarios
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#">Log-in</a></li>
+                                <li><a class="dropdown-item" href="#">Crear Usuario </a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Log-Out</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://via.placeholder.com/1920x300" class="d-block w-100" alt="imagen perdida">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://via.placeholder.com/1920x300" class="d-block w-100" alt="imagen perdida">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://via.placeholder.com/1920x300" class="d-block w-100" alt="imagen perdida">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="row">
+            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                <option selected>Filtrar</option>
+                <option value="1">Alquileres</option>
+                <option value="2">Compra</option>
+                <option value="3">Ambos</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-7">
+                <h3>Destacados</h3>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://via.placeholder.com/200" class="card-img-top" alt="imagen perdida">
+                            <div class="card-body">
+                                <h5 class="card-title">Venta</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Publicado hace 1 dia</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://via.placeholder.com/200" class="card-img-top" alt="imagen perdida">
+                            <div class="card-body">
+                                <h5 class="card-title">Venta</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to
+                                    additional content.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Publicado hace 4 dias</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://via.placeholder.com/200" class="card-img-top" alt="imagen perdida">
+                            <div class="card-body">
+                                <h5 class="card-title">Alquiler</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This card has even longer content than the first to
+                                    show that equal height action.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Publicado hace 1 mes</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="row">
+                    <div class="col-4">
+                        <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+                            <nav class="nav nav-pills flex-column">
+                                <a class="nav-link" href="#item-1">Que es esta empresa</a>
+                                <nav class="nav nav-pills flex-column">
+                                    <a class="nav-link ms-3 my-1" href="#item-1-1">Que puedo hacer</a>
+                                    <a class="nav-link ms-3 my-1" href="#item-1-2">Que costo tiene</a>
+                                </nav>
+                                <a class="nav-link" href="#item-2">Como crear mi usuario</a>
+                                <a class="nav-link" href="#item-3">Como publicar</a>
+                                <nav class="nav nav-pills flex-column">
+                                    <a class="nav-link ms-3 my-1" href="#item-3-1">Consejos</a>
+                                    <a class="nav-link ms-3 my-1" href="#item-3-2">Restricciones</a>
+                                </nav>
+                            </nav>
+                        </nav>
+                    </div>
+
+                    <div class="col-8">
+                        <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true"
+                            class="scrollspy-example-2" tabindex="0">
+                            <div id="item-1">
+                                <h4>La empresa</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum animi possimus
+                                    perspiciatis provident. Ab voluptatum reiciendis atque accusamus, ex aut nam
+                                    architecto eligendi, sed amet quaerat beatae commodi, ipsum saepe.</p>
+                            </div>
+                            <div id="item-1-1">
+                                <h5>Que puedo hacer</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia alias beatae
+                                    facilis, doloremque eos harum cupiditate soluta sint illum provident repudiandae
+                                    inventore consequuntur doloribus saepe voluptate autem quia explicabo accusamus.</p>
+                            </div>
+                            <div id="item-1-2">
+                                <h5>Que costo tiene</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque esse, odio iusto
+                                    veritatis amet inventore quidem, quod temporibus, tempore repellat voluptate?
+                                    Sapiente odio consectetur quo eius ad? Impedit, obcaecati asperiores.</p>
+                            </div>
+                            <div id="item-2">
+                                <h4>Como crear mi usuario</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus repellendus,
+                                    voluptatum voluptate tempora magnam dolorem asperiores provident omnis dolor,
+                                    deleniti ea odit dignissimos odio fuga sit temporibus. Expedita, perspiciatis saepe.
+                                </p>
+                            </div>
+                            <div id="item-3">
+                                <h4>Como publicar</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur fuga laudantium
+                                    tenetur natus totam sunt, culpa placeat? Excepturi, voluptates, perferendis alias
+                                    cum temporibus sapiente accusantium consequuntur, laborum nemo doloremque culpa!
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur laboriosam
+                                    repellat aut nam, minima fuga commodi rem quo quidem nesciunt nostrum, quaerat
+                                    asperiores nulla possimus illo provident? Hic, commodi dolorum?</p>
+                            </div>
+                            <div id="item-3-1">
+                                <h5>Consejos</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi aut exercitationem
+                                    asperiores earum, quae nisi dolorem odio provident error quasi delectus alias animi
+                                    ea adipisci culpa similique consequatur, quisquam sapiente?</p>
+                            </div>
+                            <div id="item-3-2">
+                                <h5>Restricciones</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit impedit assumenda
+                                    possimus perferendis facere veritatis quod tenetur numquam officia eos, aspernatur
+                                    vel temporibus enim doloremque repellat iusto. At, iusto optio.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="row">
+            <nav aria-label="...">
+                <ul class="pagination">
+                  <li class="page-item disabled">
+                    <a class="page-link">Previous</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item active" aria-current="page">
+                    <a class="page-link" href="#">2</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                  </li>
+                </ul>
+              </nav>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
