@@ -1,0 +1,367 @@
+/*font-family: 'Ubuntu', sans-serif;*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: #ffffff;
+}
+
+h1 {
+    font-size: 2.6em;
+}
+
+h3 {
+    font-size: 1.4;
+}
+
+p {
+    font-size: 0.8;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    color: #88168f;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    transition: all;
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    border-radius: 26px;
+    background-color: #88168f;
+    color: #ffffff;
+}
+
+.button {
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    color: #88168f;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    transition: all;
+    transition-duration: 0.3s;
+}
+
+.button:hover {
+    border-radius: 26px;
+    background-color: #88168f;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    background-color: rgb(243, 243, 243);
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .logo {
+    margin: 0;
+    margin: 15px;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+header .logo:hover {
+    color: #88168f;
+}
+
+nav .holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+header nav a {
+    text-decoration: none;
+    padding: 5px 12px;
+    color: black;
+    transition: all;
+    transition-duration: 0.5s;
+}
+header nav a:hover {
+    color: #88168f;
+    font-size: large;
+}
+
+main {
+    text-align: center;
+}
+
+main .container {
+    padding: 150px, 12px;
+}
+
+main p {
+    display: none;
+}
+
+main .container .secciones {
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+    padding: 30px;
+    margin: 10px;
+}
+
+.secciones:first-child {
+    color: #ffffff;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url("hospedaje.jpg");
+}
+
+.secciones:nth-child(2) {
+    color: #ffffff;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url("experiencias.jpg");
+}
+
+.secciones:nth-child(3) {
+    color: #ffffff;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url("novedades.jpg");
+}
+
+.cualidades {
+    width: 95%;
+    margin: 0;
+    text-align: center;
+}
+
+.cualidades h2 {
+    display: none;
+}
+
+footer p {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+footer .container {
+    background-image: url("banner-home.jpg");
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+    padding: 5px;
+    text-align: center;
+}
+/*fin home*/
+/*inicia nosotros*/
+.nosotros h2 {
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+.nosotros p {
+    display: block;
+    font-size: small;
+}
+
+.staff {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.persona:nth-child(2) {
+    background-color: #88168f;
+    color: #ffffff;
+}
+
+.persona {
+    border: 10px;
+    border-radius: 5px;
+    width: 100%;   
+}
+
+.persona p {
+    display: block;
+    font-size: x-small;
+}
+
+.persona img {
+    margin-top: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.persona h5 {
+    margin-top: 15px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5)
+}
+/*termina nosotros*/
+/*inicia contacto*/
+.instructivo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #88168f;
+    border-radius: 40px;
+    color: #ffffff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.instructivo h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.instructivo p{
+    display: block;
+    font-size: small;
+    text-align: justify;
+    width: 92%;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding: 10px;
+    margin-top: 20px;
+}
+#Nombre{
+    color: #88168f;
+}
+#mail{
+    color:#88168f
+}
+.button{
+    padding: 5px;
+    margin: 10px;
+}
+
+/*media*/
+
+@media (min-width: 720px) {
+
+    header .container {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    header .container nav {
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0;
+    }
+
+    nav .holder {
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    main p {
+        display: block;
+    }
+
+    main .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .secciones {
+        padding: 50px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+    }
+
+    .secciones h3 {
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+
+    .secciones p {
+        padding: 40px;
+    }
+
+    .cualidades {
+        width: 100%;
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cualidades h2 {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .cualidades p {
+        width: 70%;
+        text-align: center;
+    }
+    .nosotros p {
+        display: block;
+        font-size:medium;
+    }
+    .staff {
+        margin-top: 60px;
+        margin-bottom: 180px;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .persona {
+        border: 10px;
+        border-radius: 5px;
+        width: 28%;
+    }
+    .persona h5{
+        font-size: x-large;
+        }
+    .persona h6{
+        font-size: large;
+    }
+    .persona p{
+        font-size: medium;
+    }
+    /*inicia media contacto*/
+    .instructivo{
+    border-radius: 0;
+    padding: 30px;
+    align-content: space-between;
+    }
+    .instructivo h2{
+        margin-top: 5px;
+        margin-bottom: 30px;
+      }
+    .instructivo p{
+        font-size: medium;
+        text-align: justify;
+    }
+}
+/*fin media*/
