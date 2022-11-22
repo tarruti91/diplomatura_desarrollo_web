@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contador de caracteres</title>
+</head>
+
+<body>
+    <textarea name="message" onkeyup="contador(this);"></textarea>
+    <p id="cantidad">0 caracteres</p>
+    <script>
+        function contador(obj) {
+            document.getElementById("cantidad").innerHTML = obj.value.length + ' caracteres';
+        }
+    </script>
+
+</body>
+
+</html>

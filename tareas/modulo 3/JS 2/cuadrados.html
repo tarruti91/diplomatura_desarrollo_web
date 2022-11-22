@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuadrados</title>
+    <link rel="stylesheet" href="tareafondo.css">
+</head>
+
+<body id="cuerpo">
+    <div>
+        <button class="boton" id="red" onclick="rojo()">Rojo
+        </button>
+        <button class="boton" id="green" onclick="verde()">Verde
+        </button>
+        <button class="boton" id="blue" onclick="azul()">Azul
+        </button>
+    </div>
+    <script>
+    const fondo = document.getElementById ('cuerpo')
+       function rojo() {
+        fondo.style.backgroundColor ='#FF0000'
+        }
+        function verde() {
+        fondo.style.backgroundColor = '#008000'
+        }
+        function azul() {
+        fondo.style.backgroundColor = '#0000FF'
+        }
+
+    </script>
+</body>
+
+</html>
