@@ -1,3 +1,5 @@
+import '../estilos/nosotros.css'
+
 const Nosotros = (props) => {
     return (
         <>

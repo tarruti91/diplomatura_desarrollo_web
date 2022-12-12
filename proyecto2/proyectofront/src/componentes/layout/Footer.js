@@ -1,7 +1,8 @@
 import React from "react";
+
 const Footer = (props) => {
   return (
-    <footer className="container">
+    <footer>
       <p>&copy; Portal Mendoza</p>
     </footer>)
 

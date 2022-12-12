@@ -1,0 +1,131 @@
+main {
+    text-align: center;
+    max-width: 1600px;
+    margin: auto;
+}
+
+main p {
+    display: none;
+}
+
+main .container .tarjetas {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+main .container .secciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+    padding: 35px;
+    margin: 10px;
+}
+
+.secciones:first-child {
+    color: #ffffff;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url("hospedaje.jpg");
+}
+
+.secciones:nth-child(2) {
+    color: #ffffff;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url("experiencias.jpg");
+}
+
+.secciones:nth-child(3) {
+    color: #ffffff;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url("novedades.jpg");
+}
+
+main .container .secciones h3 {
+    margin: 15px;
+}
+
+main .container .secciones button {
+    margin: 15px;
+
+}
+
+.cualidades {
+    width: 95%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.cualidades h2 {
+    display: none;
+}
+
+
+/*incia media*/
+
+@media (min-width: 720px) {
+
+    main .container .tarjetas {
+        flex-direction: row;
+        margin-top: 40px;
+    }
+
+
+    .secciones {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+        width: 30%;
+        transition: all;
+        transition-duration: 0.3s;
+    }
+
+    .secciones:hover {
+        width: 32%;
+    }
+
+    .secciones button {
+        width: 60%;
+    }
+
+    .secciones button a {
+        width: 30%;
+    }
+
+    .secciones p {
+        padding: 20px;
+        font-size: 1.3em;
+        text-align: justify;
+    }
+
+    .cualidades {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cualidades h2 {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .cualidades p {
+        width: 70%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    main p {
+        display: block;
+    }
+}

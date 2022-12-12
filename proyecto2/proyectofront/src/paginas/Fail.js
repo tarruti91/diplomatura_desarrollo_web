@@ -1,6 +1,6 @@
 const Fail = (props) => {
     return (
-        <div className="container">
+        <div className="failmsj">
             <h2>Te pedimos perdon pero nuestros expertos estan trabajando en esto</h2>
         </div>
     )

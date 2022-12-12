@@ -1,9 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 const Nav = (props) => {
     return (
-        <div className="container">
+        <div className="holder">
             <nav>
                 <ul>
                     <li><Link to="/">Home</Link></li>

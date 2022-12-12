@@ -1,0 +1,95 @@
+/*inicia header*/
+.headernav{
+    background-color: rgb(221, 218, 218);
+    width: 100%;
+}
+.headercontainer {
+    max-width: 1600px;
+    margin: auto;
+}
+
+.headercontainer h1 {
+    font-weight: lighter;
+    text-align: center;
+    transition: all;
+    transition-duration: 0.4s;
+}
+
+.headercontainer h1:hover {
+    text-align: center;
+    color: #88168f;
+}
+
+/*incia nav*/
+.headercontainer nav ul {
+    text-align: center;
+    padding: 0;
+}
+
+.headercontainer nav ul li {
+    list-style: none;
+    padding: 6px;
+}
+
+.headercontainer nav ul li a {
+    text-decoration: none;
+    color: black;
+    transition: all;
+    transition-duration: 0.5s
+}
+
+.headercontainer nav ul li a:hover {
+    color: #88168f;
+    font-size: large;
+}
+
+/*incia footer*/
+
+footer {
+    background-image: url("banner-home.jpg");
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin-top: 60px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+/*inicia media*/
+@media (min-width: 720px) {
+    .headercontainer {
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+
+    .headercontainer h1 {
+        font-size: 3.5em;
+    }
+
+    .headercontainer nav {
+        width: 40%;
+    }
+
+    .headercontainer nav ul {
+         display: flex;
+        flex-direction: row;
+        align-items: space-between;
+    }
+
+    .headercontainer nav ul li a {
+    font-size: larger;
+        transition: all;
+        transition-duration: 0.5s
+    }
+
+    .headercontainer nav ul li a:hover {
+        color: #88168f;
+        font-size: x-large;
+    }
+
+}
