@@ -31,3 +31,23 @@ justify-content: center;
 text-align: center;
 }
 
+/*novedades*/
+.novedadeswelcome{
+  color: #88168f;
+  font-size: larger;
+}
+.btnlogout{
+  background-color: #88168f;
+  max-width: 20%;
+  text-decoration: none;
+  color: aliceblue;
+  text-align: center;
+  border-radius: 20px;
+  padding: 5px; 
+}
+.btn-success{
+  background-color: #88168f;
+  padding: 5px;
+  border-radius: 30px;
+  color: aliceblue;
+}
