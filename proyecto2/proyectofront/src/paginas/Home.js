@@ -18,7 +18,7 @@ const Home = (props) => {
                     <div className="secciones">
                         <h3>Novedades</h3>
                         <p>Encuentra los eventos unicos que buscas cerca de tus alojamientos preferidos siempre </p>
-                        <Link to="fail"><button>Quiero!</button></Link>
+                        <Link to="novedades"><button>Quiero!</button></Link>
                     </div>
                 </div>
             </div>
