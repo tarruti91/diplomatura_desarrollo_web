@@ -1,15 +1,17 @@
 import React from "react";
+import '../../estilos/novedades.css';
 
 const NovedadItem = (props) => {
-    const { title, subtitel, imagen, body } = props;
+    const { title, subtitle, imagen, body } = props;
     return (
-        <div className="novedades">
+        <div className="novedad">
             <h1>{title}</h1>
-            <h2>{subtitel}</h2>
-            <img src={imagen} />
+            <h2>{subtitle}</h2>
             <div dangerouslySetInnerHTML={{ __html: body }} />
-            <hr />
+            <img src={imagen} />
         </div>
+
+
     );
 }
 

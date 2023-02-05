@@ -89,7 +89,7 @@ main .container .secciones button {
     }
 
     .secciones:hover {
-        width: 32%;
+        border-radius: 10%;
     }
 
     .secciones button {
@@ -103,7 +103,7 @@ main .container .secciones button {
     .secciones p {
         padding: 20px;
         font-size: 1.3em;
-        text-align: justify;
+        text-align: center;
     }
 
     .cualidades {

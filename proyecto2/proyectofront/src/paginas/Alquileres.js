@@ -1,5 +1,5 @@
 import '../estilos/alquileres.css'
-import { Link } from "react-router-dom";
+
 
 const Alquileres = (props) => {
     return (
@@ -14,7 +14,7 @@ const Alquileres = (props) => {
                             <img src="imagenes/alojamientos/alojamiento1/vistaalojamiento1.JPG" class="alojpic" alt="ups" />
                         </div>
                         <div className="alojamientodata">
-                            <h3>Descripcion del dueño</h3>
+                            <h3>Descripcion</h3>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam quasi accusantium laborum
                                 explicabo, quis eaque tenetur sunt repudiandae consequatur sapiente non dolor magni praesentium sint
                                 veritatis accusamus? Quos, eligendi magni?</p>
@@ -24,9 +24,10 @@ const Alquileres = (props) => {
                                 veritatis accusamus? Quos, eligendi magni?</p>
                             <h3>Cantidad de camas</h3>
                             <p>3</p>
-
                         </div>
-                        <Link to="/fail"><button> Contactar</button></Link>
+                        <h3>Contactos</h3>
+                        <p>contacto1@mail.com</p>
+                        <p>011-0000-0000</p>
                     </div>
                     <div className="alojamiento">
                         <div className="alojamientoimg">
@@ -46,7 +47,9 @@ const Alquileres = (props) => {
                             <h3>Cantidad de camas</h3>
                             <p>6</p>
                         </div>
-                        <Link to="/fail"><button>Contactar</button></Link>
+                        <h3>Contactos</h3>
+                        <p>contacto2@mail.com</p>
+                        <p>011-0000-0000</p>
                     </div>
                     <div className="alojamiento">
                         <div className="alojamientoimg">
@@ -66,7 +69,9 @@ const Alquileres = (props) => {
                             <h3>Cantidad de camas</h3>
                             <p>2</p>
                         </div>
-                        <Link to="/fail"><button> Contactar</button></Link>
+                        <h3>Contactos</h3>
+                        <p>contacto3@mail.com</p>
+                        <p>011-0000-0000</p>
                     </div>
                     <div className="alojamiento">
                         <div className="alojamientoimg">
@@ -86,7 +91,9 @@ const Alquileres = (props) => {
                             <h3>Cantidad de camas</h3>
                             <p>2</p>
                         </div>
-                        <Link to="/fail"><button>Contactar</button></Link>
+                        <h3>Contactos</h3>
+                        <p>contacto4@mail.com</p>
+                        <p>011-0000-0000</p>
                     </div>
                 </div>
             </div >

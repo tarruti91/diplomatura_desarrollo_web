@@ -6,103 +6,113 @@
     margin-bottom: 0px;
 }
 
-.experiencias {
+.experienciascontainer {
     display: flex;
-    flex-direction: column;
-    align-content: space-between;
-    margin-top: 20px;
+    justify-content: center;
 }
 
-.experiencia {
-    margin-bottom: 45px;
+.experiencias {
+    margin-bottom: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
-
-}
-.experiencia h3{
-    margin-top: 6px;
-}
-.experiencia button{
-    margin-bottom: 10px;
-}
-.descripcionexperiencia {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-}
-.descripcionexperiencia p{
-    display: none;
-}
-.descripcionexperiencia img {
-    width: 80%;
-    border-radius: 30px;
-}
-.experiencia:nth-child(2) {
-    background-color: #88168f;
-    color: #ffffff;
-    transition: all;
-    transition-duration: 0.4s;
-}
-.experiencia:nth-child(4) {
-    background-color: #88168f;
-    color: #ffffff;
-    transition: all;
-    transition-duration: 0.4s;
-}
-
-/*incia media*/
-@media (min-width: 720px) {
-.tituloexperiencias {
-    font-size: 3em;
-    text-align: center;
-    margin-top: 20px;
-    width: 100%;
+    max-width: 90%;
 }
 
 .experiencia {
-    margin-bottom: 15px;
-    border-radius: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dfdbdf;
+    border-radius: 20px;
     transition: all;
     transition-duration: 0.4s;
 }
 
 .experiencia:hover {
-    background-color: #dfdbdf;
-    padding: 10px;
-}
-.experiencia:nth-child(2) :hover {
-   color: black;
-}
-.experiencia:nth-child(4):hover {
-    color: black;
+    background-color: #88168f;
+    color: #dfdbdf;
 }
 
 .experiencia h3 {
-    margin-top: 8px;
-    margin-bottom: 15px;
-    font-size: 2.5em;
+    margin-top: 6px;
 }
 
 .descripcionexperiencia {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.descripcionexperiencia img {
-    width: 50%;
-    border-radius: 30px;
+    justify-content: center;
+    margin: 20px;
 }
 
 .descripcionexperiencia p {
-    display: block;
-    text-align: justify;
-    width: 40%;
-    font-size: xx-large;
+    display: none;
 }
 
-.experiencia form {
-    margin: 14px;
+.descripcionexperienciacelu {
+    text-align: center;
+    padding: 4px;
 }
+
+.descripcionexperiencia img {
+    width: 40%;
+    border-radius: 30px;
+}
+
+/*incia media*/
+@media (min-width: 720px) {
+    .tituloexperiencias {
+        margin-bottom: 60px;
+    }
+
+    .experiencias {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .experiencia {
+        margin: 15px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 30px;
+        padding: 20px;
+        transition: all;
+        transition-duration: 0.4s;
+        max-width: 45%;
+    }
+
+    .experiencia:hover {
+        background-color: #88168f;
+    }
+
+    .experiencia h3 {
+        margin-top: 8px;
+        margin-bottom: 15px;
+        font-size: 2.5em;
+    }
+
+    .descripcionexperiencia {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .descripcionexperiencia img {
+        max-width: 80%;
+        border-radius: 30px;
+    }
+
+    .descripcionexperiencia p {
+        display: block;
+        text-align: justify;
+        width: 35%;
+        font-size: large;
+    }
+
+    .descripcionexperienciacelu {
+        display: none;
+    }
 }

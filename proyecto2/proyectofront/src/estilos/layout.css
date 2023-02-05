@@ -1,8 +1,9 @@
 /*inicia header*/
-.headernav{
+.headernav {
     background-color: rgb(221, 218, 218);
     width: 100%;
 }
+
 .headercontainer {
     max-width: 1600px;
     margin: auto;
@@ -76,13 +77,13 @@ footer {
     }
 
     .headercontainer nav ul {
-         display: flex;
+        display: flex;
         flex-direction: row;
         align-items: space-between;
     }
 
     .headercontainer nav ul li a {
-    font-size: larger;
+        font-size: larger;
         transition: all;
         transition-duration: 0.5s
     }

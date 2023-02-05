@@ -5,17 +5,19 @@
     margin-top: 30px;
     margin-bottom: 0px;
 }
-.alojamientoscontainer{
+
+.alojamientoscontainer {
     display: flex;
     justify-content: center;
 }
+
 .alojamientos {
     margin-bottom: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 90%;    
-    }
+    max-width: 90%;
+}
 
 .alojamiento {
     margin-bottom: 30px;
@@ -23,28 +25,36 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    transition: all;
-  transition-duration: 0.4s;
-}
-.alojamiento:hover{
     background-color: #dfdbdf;
     border-radius: 20px;
+    transition: all;
+    transition-duration: 0.4s;
 }
-.alojamientoimg{
+
+.alojamiento:hover {
+    background-color: #88168f;
+    color: #dfdbdf;
+}
+
+.alojamientoimg {
     display: flex;
-    padding: 5px;  
-    }
-.alojamiento img{
-  border-radius: 20px;
-  width: 80%;
-  margin: 5px;
-  transition: all;
-  transition-duration: 0.4s;
+    padding: 5px;
+    justify-content: center;
 }
-.alojamiento img:hover{
+
+.alojamientoimg img {
+    border-radius: 20px;
+    width: 80%;
+    margin: 5px;
+    transition: all;
+    transition-duration: 0.4s;
+}
+
+.alojamientoimg img:hover {
     width: 410%;
 }
-.alojamientodata{
+
+.alojamientodata {
     display: none;
 }
 
@@ -53,54 +63,49 @@
 
 @media (min-width: 720px) {
 
-.tituloalojamiento {
-    margin-bottom: 60px;
-    font-size: 3em;
-}
-
-.alojamientos {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-content: space-between;
-}
-
-.alojamiento {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 90px;
-    border-radius: 30px;
-    padding: 40px;
-    width: 50%;
-    transition: all;
-    transition-duration: 0.4s;
-}
-
-.alojamiento:hover {
-    background-color: #dfdbdf;
-    width: 50%;
+    .alojamientos {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
     }
-.alojamientoimg{
-    flex-wrap: nowrap;
-    width: 110%;
-}
-.alojamiento img:hover{
-    width: 80%;
-}
-.alojamientodata{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-items: center;
-    padding: 8px;
-}
-.alojamiento h3{
-    text-align: center;
-}
- 
-/*.ownerdata{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}*/
+
+    .alojamiento {
+        margin: 15px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 30px;
+        padding: 40px;
+        width: 45%;
+        transition: all;
+        transition-duration: 0.4s;
+    }
+
+    .alojamiento:hover {
+        background-color: #88168f;
+    }
+
+    .alojamientoimg {
+        flex-wrap: nowrap;
+        width: 110%;
+    }
+
+    .alojamientoimg img:hover {
+        width: 80%;
+    }
+
+    .alojamientodata {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-items: center;
+        padding: 8px;
+        text-align: center;
+    }
+
+    .alojamiento h3 {
+        text-align: center;
+        padding: 5px;
+    }
+
 }

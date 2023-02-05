@@ -12,6 +12,7 @@ import Fail from './paginas/Fail';
 import Home from './paginas/Home';
 import Nosotros from './paginas/Nosotros';
 import Novedades from './paginas/Novedades';
+import Servicios from './paginas/servicios';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path='/experiencias' element={<Experiencias />} />
           <Route path='/alquileres' element={<Alquileres />} />
           <Route path='/novedades' element={<Novedades />} />
+          <Route path='/servicios' element={<Servicios />} />
         </Routes>
       </BrowserRouter>
       <Footer />

@@ -1,3 +1,9 @@
+.nosotroscontainer {
+    max-width: 90%;
+    margin: auto;
+}
+
+
 .nosotros h2 {
     text-align: center;
     font-size: 2em;
@@ -43,10 +49,12 @@
     margin-top: 15px;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5)
 }
+
 .persona h6 {
     margin-top: 15px;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5)
 }
+
 .persona:nth-child(2) {
     background-color: #88168f;
     color: #ffffff;
@@ -55,9 +63,7 @@
 
 /*media*/
 @media (min-width: 720px) {
-    .nosotros h2 {
-        font-size: 3em;
-    }
+
 
     .nosotros p {
         display: block;

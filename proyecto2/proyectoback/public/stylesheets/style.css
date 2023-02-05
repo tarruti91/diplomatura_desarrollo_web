@@ -1,15 +1,17 @@
-body{
-  margin:0;
+body {
+  margin: 0;
 }
-header{
-background-color: rgb(221, 218, 218);
-display: flex;
-width: 100%;
-height: 100px;
-align-items: center;
-justify-content: center;
+
+header {
+  background-color: rgb(221, 218, 218);
+  display: flex;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
 }
-header h1{
+
+header h1 {
   margin: 0;
   text-align: center;
   align-content: center;
@@ -17,35 +19,39 @@ header h1{
   transition: all;
   transition-duration: 0.4s;
 }
-header h1:hover{
-  
+
+header h1:hover {
+
   color: #88168f;
 
 }
+
 /*incia footer*/
 
 footer {
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 /*novedades*/
-.novedadeswelcome{
+.novedadeswelcome {
   color: #88168f;
   font-size: larger;
 }
-.btnlogout{
+
+.btnlogout {
   background-color: #88168f;
   max-width: 20%;
   text-decoration: none;
   color: aliceblue;
   text-align: center;
   border-radius: 20px;
-  padding: 5px; 
+  padding: 5px;
 }
-.btn-success{
+
+.btn-success {
   background-color: #88168f;
   padding: 5px;
   border-radius: 30px;

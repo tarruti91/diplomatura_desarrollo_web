@@ -1,0 +1,53 @@
+.tituloservicios {
+    text-align: center;
+    font-size: 2em;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.servicioscontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.servicios {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    max-width: 80%;
+}
+
+.servicio {
+    margin-bottom: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dfdbdf;
+    border-radius: 20px;
+    transition: all;
+    transition-duration: 0.4s;
+    width: 100%;
+}
+
+.servicio:hover {
+    background-color: #88168f;
+    color: #dfdbdf;
+}
+
+.serviciodescripcion {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.serviciodescripcion p {
+    text-align: center;
+    width: 40%;
+}
+
+.serviciodescripcion img {
+    width: 30%;
+}

@@ -29,13 +29,15 @@
     padding: 10px;
     margin-top: 20px;
 }
-.formdata{
+
+.formdata {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 3px;
 }
-.formdata input{
+
+.formdata input {
     margin: 5px;
 }
 
@@ -51,41 +53,47 @@
     padding: 5px;
     margin: 10px;
 }
-.formulario textarea{
+
+.formulario textarea {
     margin-bottom: 20px;
 }
-.formulario label{
+
+.formulario label {
     text-align: center;
 }
 
 /*inicia media*/
 @media (min-width: 720px) {
-.instructivo {
-    border-radius: 0;
-    padding: 30px;
-    align-content: space-between;
-}
-.instructivo h2 {
-    margin-top: 5px;
-    margin-bottom: 30px;
-}
+    .instructivo {
+        border-radius: 0;
+        padding: 30px;
+        align-content: space-between;
+    }
 
-.instructivo p {
-    font-size: medium;
-    text-align: justify;
-}
-.formulario{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.formdata{
- display: flex;
- flex-direction: column;
- align-items: center;
- width: 40%;
-}
-.formdata input{
-    margin: 10px;
-}
+    .instructivo h2 {
+        margin-top: 5px;
+        margin-bottom: 30px;
+    }
+
+    .instructivo p {
+        font-size: medium;
+        text-align: justify;
+    }
+
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formdata {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40%;
+    }
+
+    .formdata input {
+        margin: 10px;
+    }
 }
